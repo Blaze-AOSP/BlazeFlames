@@ -30,4 +30,10 @@
             android:summary="@string/global_actions_advanced_reboot_summary"
             android:defaultValue="true" />
 
+        <com.blaze.flames.preferences.SystemSettingSwitchPreference
+            android:key="call_volume_answer"
+            android:title="@string/volume_answer_call_title"
+            android:summary="@string/volume_answer_call_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
