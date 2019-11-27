@@ -65,8 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:background="@android:color/transparent"
-                android:gravity="center"
-                android:src="@drawable/ic_action_set" />
+                android:gravity="center" />
         </LinearLayout>
 
         <TextView
