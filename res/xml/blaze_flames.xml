@@ -23,35 +23,35 @@
             android:title="@string/statusbar_title"
             android:fragment="com.blaze.flames.fragments.StatusBarSettings"/>
 
-        <!-- Quick Settings panel -->
+        <!-- Quick Settings panel
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
-            android:fragment="com.blaze.flames.fragments.QuickSettings"/>
+            android:fragment="com.blaze.flames.fragments.QuickSettings"/> -->
 
-        <!-- Buttons -->
+        <!-- Buttons
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
-            android:fragment="com.blaze.flames.fragments.ButtonSettings"/>
+            android:fragment="com.blaze.flames.fragments.ButtonSettings"/> -->
 
-        <!-- Navigation Bar -->
+        <!-- Navigation Bar
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
-            android:fragment="com.blaze.flames.fragments.NavbarSettings"/>
+            android:fragment="com.blaze.flames.fragments.NavbarSettings"/> -->
 
-        <!-- Gestures -->
+        <!-- Gestures
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title" 
-            android:fragment="com.blaze.flames.fragments.GestureSettings"/>
+            android:fragment="com.blaze.flames.fragments.GestureSettings"/> -->
 
-        <!-- Lock Screen -->
+        <!-- Lock Screen
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
-            android:fragment="com.blaze.flames.fragments.LockScreenSettings"/>
+            android:fragment="com.blaze.flames.fragments.LockScreenSettings"/> -->
 
         <!-- Power Menu -->
         <Preference
@@ -65,16 +65,16 @@
             android:title="@string/recents_title"
             android:fragment="com.blaze.flames.fragments.RecentsSettings"/>
 
-        <!-- Notifications -->
+        <!-- Notifications
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
-            android:fragment="com.blaze.flames.fragments.NotificationSettings"/>
+            android:fragment="com.blaze.flames.fragments.NotificationSettings"/> -->
 
-        <!-- Misc -->
+        <!-- Misc
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title" 
-            android:fragment="com.blaze.flames.fragments.MiscSettings"/>
+            android:fragment="com.blaze.flames.fragments.MiscSettings"/> -->
 
 </PreferenceScreen>
