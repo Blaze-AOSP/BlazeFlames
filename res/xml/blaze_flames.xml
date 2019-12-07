@@ -17,19 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/blaze_flames_title" >
 
-        <!-- Status Bar -->
+        <!-- QS & Status Bar -->
         <com.blaze.flames.preferences.CardviewPreference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
+            android:key="qs_statusbar_category"
+            android:title="@string/qs_statusbar_title"
             android:fragment="com.blaze.flames.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
-
-        <!-- Quick Settings panel -->
-        <com.blaze.flames.preferences.CardviewPreference
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.blaze.flames.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
         <com.blaze.flames.preferences.CardviewPreference
@@ -38,19 +31,12 @@
             android:fragment="com.blaze.flames.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
-        <!-- Navigation Bar -->
+        <!-- Navigation & Gestures -->
         <com.blaze.flames.preferences.CardviewPreference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title" 
+            android:key="navbar_gestures_category"
+            android:title="@string/navbar_gestures_title" 
             android:fragment="com.blaze.flames.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
-
-        <!-- Gestures -->
-        <com.blaze.flames.preferences.CardviewPreference
-            android:key="gestures_category"
-            android:title="@string/gestures_title" 
-            android:fragment="com.blaze.flames.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
         <com.blaze.flames.preferences.CardviewPreference
@@ -58,20 +44,6 @@
             android:title="@string/lockscreen_title" 
             android:fragment="com.blaze.flames.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
-
-        <!-- Power Menu -->
-        <com.blaze.flames.preferences.CardviewPreference
-            android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
-            android:fragment="com.blaze.flames.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
-
-        <!-- Recents -->
-        <com.blaze.flames.preferences.CardviewPreference
-            android:key="recents_category"
-            android:title="@string/recents_title"
-            android:fragment="com.blaze.flames.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
 
         <!-- Notifications -->
         <com.blaze.flames.preferences.CardviewPreference
