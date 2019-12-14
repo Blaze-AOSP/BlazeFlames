@@ -1,24 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2015 Nitrogen Project
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-         http://www.apache.org/licenses/LICENSE-2.0
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
-
     <path
+        android:name="path"
+        android:pathData="M 12 0 C 18.623 0 24 5.377 24 12 C 24 18.623 18.623 24 12 24 C 5.377 24 0 18.623 0 12 C 0 5.377 5.377 0 12 0 Z M 12 2.667 C 17.151 2.667 21.333 6.849 21.333 12 C 21.333 17.151 17.151 21.333 12 21.333 C 6.848 21.333 2.666 17.151 2.666 12 C 2.666 6.849 6.848 2.667 12 2.667 Z M 16.666 13.973 C 17.402 13.973 18 14.571 18 15.307 C 18 16.043 17.402 16.64 16.666 16.64 L 7.333 16.64 C 6.597 16.64 6 16.043 6 15.307 C 6 14.571 6.597 13.973 7.333 13.973 L 16.666 13.973 Z M 16.666 7.36 C 17.402 7.36 18 7.957 18 8.693 L 18 11.36 C 18 12.096 17.402 12.693 16.666 12.693 L 7.333 12.693 C 6.597 12.693 6 12.096 6 11.36 L 6 8.693 C 6 7.957 6.597 7.36 7.333 7.36 L 16.666 7.36 Z"
         android:fillColor="?android:attr/colorAccent"
-        android:pathData="M18,20H6V8h12V20Z
-M18,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2L18,2z" />
+        android:strokeWidth="1"/>
 </vector>
