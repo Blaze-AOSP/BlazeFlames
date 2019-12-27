@@ -17,5 +17,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/interface_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    
+        <com.android.settings.display.DensityPreference
+        android:key="density"
+        android:title="@string/display_density_title" />
 
 </PreferenceScreen>
