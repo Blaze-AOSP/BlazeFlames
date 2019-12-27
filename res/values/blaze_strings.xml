@@ -21,6 +21,7 @@
     <string name="navbar_gestures_title">Navigation &amp; Gestures</string>
     <string name="qs_statusbar_title">Status bar &amp; QS</string>
     <string name="volume_title">Volume rockers</string>
+    <string name="interface_title">Interface</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
