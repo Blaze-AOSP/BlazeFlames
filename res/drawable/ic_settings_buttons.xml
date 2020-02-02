@@ -1,23 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2015 Nitrogen Project
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-         http://www.apache.org/licenses/LICENSE-2.0
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
-
     <path
+        android:name="path"
+        android:pathData="M 17.4 24 L 6.6 24 C 4.613 24 3 22.387 3 20.4 L 3 3.6 C 3 1.613 4.613 0 6.6 0 L 17.4 0 C 19.387 0 21 1.613 21 3.6 L 21 20.4 C 21 22.387 19.387 24 17.4 24 Z M 17.6 2 L 6.4 2 C 5.627 2 5 2.627 5 3.4 L 5 20.6 C 5 21.373 5.627 22 6.4 22 L 17.6 22 C 18.373 22 19 21.373 19 20.6 L 19 3.4 C 19 2.627 18.373 2 17.6 2 Z M 13 14.897 C 13 14.345 12.552 13.897 12 13.897 C 11.448 13.897 11 14.345 11 14.897 L 11 17.897 C 11 18.448 11.448 18.897 12 18.897 C 12.552 18.897 13 18.448 13 17.897 L 13 14.897 Z M 10.5 16.698 C 10.5 16.864 10.418 17.019 10.281 17.112 C 10.144 17.205 9.97 17.224 9.816 17.163 C 7.867 16.309 6.5 14.365 6.5 12.104 C 6.5 9.068 8.964 6.604 12 6.604 C 15.036 6.604 17.5 9.068 17.5 12.104 C 17.5 14.365 16.133 16.309 14.18 17.154 C 14.029 17.214 13.858 17.195 13.724 17.103 C 13.59 17.012 13.51 16.86 13.51 16.698 C 13.5 16.488 13.5 16.257 13.5 16.043 C 13.5 15.561 13.731 15.109 14.122 14.827 C 14.971 14.225 15.5 13.225 15.5 12.104 C 15.5 10.172 13.932 8.604 12 8.604 C 10.068 8.604 8.5 10.172 8.5 12.104 C 8.5 13.225 9.029 14.225 9.85 14.865 C 10.228 15.138 10.452 15.576 10.452 16.043 C 10.5 16.257 10.5 16.488 10.5 16.698 Z"
         android:fillColor="?android:attr/colorAccent"
-        android:pathData="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3Z M11.678,9.989H8.45v1.958h2.729v1.099H8.45V16H7.024V8.891h4.653V9.989z M17.059,16h-1.431v-3.232c0-0.377-0.065-0.646-0.198-0.803 c-0.131-0.158-0.329-0.237-0.593-0.237c-0.212,0-0.397,0.04-0.56,0.12c-0.16,0.079-0.293,0.189-0.397,0.329V16h-1.426v-5.283h1.328 l0.063,0.757c0.176-0.271,0.393-0.479,0.649-0.63s0.545-0.225,0.864-0.225c0.534,0,0.95,0.172,1.25,0.516 c0.3,0.343,0.449,0.886,0.449,1.628V16z" />
+        android:strokeWidth="1"/>
 </vector>
